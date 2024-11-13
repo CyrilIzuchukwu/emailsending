@@ -24,7 +24,7 @@
 
 </head>
 
-<body class="" style="background: #fff !important;">
+<body class="">
     <div class="authentication">
         <div class="login-agent">
             <div class="page-left">
