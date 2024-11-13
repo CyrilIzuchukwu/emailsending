@@ -137,16 +137,16 @@
                                                             <table width="100%" cellpadding="0" cellspacing="0" border="0">
                                                                 <tr>
                                                                     <td align="center" style="padding-bottom: 20px;">
-                                                                        <img src="{{ asset('assets/images/logo/TellasportLogo.png') }}" alt="Logo" width="200" style="max-width: 100%; height: auto; display: block;">
+                                                                        <!-- <img src="{{ asset('assets/images/logo/TellasportLogo.png') }}" alt="Logo" width="200" style="max-width: 100%; height: auto; display: block;"> -->
                                                                     </td>
                                                                 </tr>
                                                                 <tr>
                                                                     <td style="padding-right: 0px;padding-left: 0px;" align="center">
 
-                                                                        {{-- <img align="center" border="0" src="images/image-1.png" alt="image" title="image" style="outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;clear: both;display: inline-block !important;border: none;height: auto;float: none;width: 100%;max-width: 190px;" width="190"/> --}}
+
                                                                         <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="164.000000pt" height="300.000000pt" viewBox="0 0 164.000000 300.000000" preserveAspectRatio="xMidYMid meet">
                                                                             <metadata>
-                                                                                Created by potrace 1.10, written by Peter Selinger 2001-2011
+                                                                                Created by potrace 1.10
                                                                             </metadata>
                                                                             <g transform="translate(0.000000,300.000000) scale(0.100000,-0.100000)" fill="#000000" stroke="none">
                                                                                 <path d="M674 2985 c-193 -42 -357 -199 -425 -410 -22 -66 -23 -88 -27 -429
@@ -332,9 +332,9 @@ m1200 27 c0 -9 -27 -41 -34 -41 -2 0 -1 11 2 25 4 23 32 37 32 16z" />
                                                             <!--[if mso]><style>.v-button {background: transparent !important;}</style><![endif]-->
                                                             <div align="center">
                                                                 <!--[if mso]><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://unlayer.com" style="height:42px; v-text-anchor:middle; width:216px;" arcsize="0%"  strokecolor="#000000" strokeweight="2px" fillcolor="#ffffff"><w:anchorlock/><center style="color:#000000;"><![endif]-->
-                                                                <a href="#" target="_blank" class="v-button" style="box-sizing: border-box;display: inline-block;text-decoration: none;-webkit-text-size-adjust: none;text-align: center;color: #000000; background-color: #ffffff; border-radius: 0px;-webkit-border-radius: 0px; -moz-border-radius: 0px; width:38%; max-width:100%; overflow-wrap: break-word; word-break: break-word; word-wrap:break-word; mso-border-alt: none;border-top-color: #000000; border-top-style: solid; border-top-width: 2px; border-left-color: #000000; border-left-style: solid; border-left-width: 2px; border-right-color: #000000; border-right-style: solid; border-right-width: 2px; border-bottom-color: #000000; border-bottom-style: solid; border-bottom-width: 2px;font-size: 18px;">
-                                                                    <span style="display:block;padding:10px 20px;line-height:120%;">CODE</span>
-                                                                </a>
+                                                                <p href="#" target="_blank" class="v-button" style="box-sizing: border-box;display: inline-block;text-decoration: none;-webkit-text-size-adjust: none;text-align: center;color: #000000; background-color: #ffffff; border-radius: 0px;-webkit-border-radius: 0px; -moz-border-radius: 0px; width:38%; max-width:100%; overflow-wrap: break-word; word-break: break-word; word-wrap:break-word; mso-border-alt: none;border-top-color: #000000; border-top-style: solid; border-top-width: 2px; border-left-color: #000000; border-left-style: solid; border-left-width: 2px; border-right-color: #000000; border-right-style: solid; border-right-width: 2px; border-bottom-color: #000000; border-bottom-style: solid; border-bottom-width: 2px;font-size: 18px;">
+                                                                    <span style="display:block;padding:10px 20px;line-height:120%;">{{ $body }}</span>
+                                                                </p>
                                                                 <!--[if mso]></center></v:roundrect><![endif]-->
                                                             </div>
 
