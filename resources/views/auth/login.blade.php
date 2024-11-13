@@ -24,7 +24,7 @@
 
 </head>
 
-<body class="" style="background: #fff !important;">
+<body class="">
     <div class="authentication">
         <div class="login-agent">
             <div class="page-left">
@@ -61,7 +61,7 @@
                             </div>
                         </div>
                         <div class="text-center">
-                            <button type="submit" class="btn btn-primary light btn-block">Sign In</button>
+                            <button type="submit" class="btn btn-primary btn-block">SIGN IN</button>
                         </div>
                     </form>
                 </div>
@@ -99,6 +99,43 @@
         .login-form {
             max-width: 100% !important;
             padding-inline: 100px !important;
+        }
+
+        @media only screen and (max-width: 767px) {
+            .login-agent {
+                display: grid;
+                grid-template-columns: repeat(1, 1fr);
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+                height: 100%;
+            }
+
+            .login-agent .page-left {
+                display: none !important;
+            }
+
+            .login-agent .page-right {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+                height: 100%;
+            }
+
+            .login-form {
+                width: 100% !important;
+                padding-inline: 25px !important;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                height: 100% !important;
+            }
+
+            .login-form form {
+                width: 100% !important;
+            }
         }
     </style>
 

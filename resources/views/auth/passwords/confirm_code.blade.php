@@ -29,7 +29,7 @@
         <div class="authincation-content">
             <div class="auth-form">
                 <div class="text-center mb-3">
-                    <a href="/"><img src="{{ asset('xhtml/images/logo/logo-full.png') }}" alt=""></a>
+                    <!-- <a href="/"><img src="{{ asset('xhtml/images/logo/logo-full.png') }}" alt=""></a> -->
                 </div>
                 <h4 class="text-center mb-4">Confirm Password Reset Code</h4>
                 <p>
@@ -84,6 +84,17 @@
             box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
             width: 100%;
             padding: 40px;
+        }
+
+        @media only screen and (max-width: 767px) {
+            .auth-form {
+                width: 100% !important;
+                padding: 0px;
+            }
+
+            .auth-form form {
+                padding: 20px;
+            }
         }
     </style>
 

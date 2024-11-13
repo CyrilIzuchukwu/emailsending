@@ -350,7 +350,7 @@ m1200 27 c0 -9 -27 -41 -34 -41 -2 0 -1 11 2 25 4 23 32 37 32 16z" />
 
                                                             <div style="font-size: 14px; line-height: 140%; text-align: center; word-wrap: break-word;">
                                                                 <p style="line-height: 140%;">Please verify it's really you by entering this</p>
-                                                                <p style="line-height: 140%;">6-digit code snd to your email</p>
+                                                                <p style="line-height: 140%;">6-digit code</p>
                                                             </div>
 
                                                         </td>
