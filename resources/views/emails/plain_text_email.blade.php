@@ -33,7 +33,9 @@
                     <tr>
                         <td style="background-color: #fff;">
                             <div style="position: relative; width: 100%; height: 140px; border-radius: 10px;">
-                                <img src="{{ $message->embed(public_path() . '/xhtml/images/pattern/1.png') }}" alt="Main Image" style="position: relative; width: 100%; height: 100%; border-radius: 10px; object-fit:cover;  object-position: center;">
+                                <!-- <img src="{{ asset('xhtml/images/pattern/1.png') }}" alt="Main Image" style="position: relative; width: 100%; height: 100%; border-radius: 10px; object-fit:cover;  object-position: center;"> -->
+
+                                <img src="{{ config('app.url') . '/xhtml/images/pattern/1.png' }}" alt="Main Image" style="position: relative; width: 100%; height: 100%; border-radius: 10px; object-fit:cover; object-position: center;">
                             </div>
                         </td>
                     </tr>
@@ -58,7 +60,7 @@
                     <tr>
                         <td style="padding: 10px;">
                             <div style="position: relative; width: 100%; height: 170px; border-radius: 10px;">
-                                <img src="{{ $message->embed(public_path() . '/xhtml/images/pattern/2.png') }}" alt="" style="position: relative; width: 100%; height: 100%; border-radius: 10px; object-fit:cover;  object-position: center;">
+                                <img src="{{ asset('xhtml/images/pattern/2.png') }}" alt="" style="position: relative; width: 100%; height: 100%; border-radius: 10px; object-fit:cover;  object-position: center;">
                             </div>
 
                             <p style="margin-top: 15px; font-size: 13px; font-weight: 600; color: #1B1B1B;">#CatchTheVibe!💜</p>
@@ -77,7 +79,7 @@
                     <tr>
                         <td style="padding: 10px;">
                             <div style="position: relative; width: 100%; height: 100px; border-radius: 10px;">
-                                <img src="{{ $message->embed(public_path() . '/xhtml/images/pattern/3.png') }}" alt="" style="position: relative; width: 100%; height: 100%; border-radius: 10px; object-fit:cover;  object-position: center;">
+                                <img src="{{ asset('xhtml/images/pattern/3.png') }}" alt="" style="position: relative; width: 100%; height: 100%; border-radius: 10px; object-fit:cover;  object-position: center;">
                             </div>
                             <div class="listing" style="margin-top: 18px;">
                                 <div class="list-color" style="display: flex; align-items: start;">
@@ -168,7 +170,6 @@
                                 <tr>
                                     <td style="padding: 0; display: flex;">
 
-
                                         <a href="" target="_blank">
                                             <img alt="Twitter X" height="auto" src="https://app-rsrc.getbee.io/public/resources/social-networks-icon-sets/circle-color/twitter@2x.png" style="display:block;height:auto;border:0;" title="Twitter X" width="22">
                                         </a>
@@ -226,10 +227,7 @@
             </td>
         </tr>
 
-
     </table>
 </body>
-
-
 
 </html>
