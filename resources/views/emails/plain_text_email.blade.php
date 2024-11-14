@@ -33,7 +33,7 @@
                     <tr>
                         <td style="background-color: #fff;">
                             <div style="position: relative; width: 100%; height: 140px; border-radius: 10px;">
-                                <img src="{{ $message->embed(public_path() . '/xhtml/images/pattern/1.png') }}" alt="Main Image" style="position: relative; width: 100%; height: 100%; border-radius: 10px; object-fit:cover;  object-position: center;">
+                                <img src="{{ asset('xhtml/images/pattern/1.png') }}" alt="Main Image" style="position: relative; width: 100%; height: 100%; border-radius: 10px; object-fit:cover;  object-position: center;">
                             </div>
                         </td>
                     </tr>
@@ -167,7 +167,6 @@
                             <table style="width: 100%;">
                                 <tr>
                                     <td style="padding: 0; display: flex;">
-
 
                                         <a href="" target="_blank">
                                             <img alt="Twitter X" height="auto" src="https://app-rsrc.getbee.io/public/resources/social-networks-icon-sets/circle-color/twitter@2x.png" style="display:block;height:auto;border:0;" title="Twitter X" width="22">
