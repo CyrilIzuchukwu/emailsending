@@ -37,7 +37,7 @@
 
                                 <!-- <img src="{{ config('app.url') . '/xhtml/images/pattern/1.png' }}" alt="Main Image" style="position: relative; width: 100%; height: 100%; border-radius: 10px; object-fit:cover; object-position: center;"> -->
 
-                                <img src="https://ibighitmusic.com/xhtml/images/pattern/1.png" alt="Main Image" style="position: relative; width: 100%; height: 100%; border-radius: 10px; object-fit:cover; object-position: center;">
+                                <img src="https://i.postimg.cc/hj1HKTKj/1.png" alt="Main Image" style="position: relative; width: 100%; height: 100%; border-radius: 10px; object-fit:cover; object-position: center;">
 
                             </div>
                         </td>
