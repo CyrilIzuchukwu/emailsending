@@ -5,321 +5,245 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
-    <title>Modern HTML Email Template</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="x-apple-disable-message-reformatting">
+    <title>BTH</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
 
-    <style type="text/css">
-        body {
-            margin: 0;
-            padding: 0;
-            /* background-color: #bfbfbf; */
-            /* background-color: #ffdab9; */
-            /* background-color: #f5deb3; */
-            background-color: #ececec;
-        }
-
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        table {
-            border-spacing: 0;
-        }
-
-        td {
-            padding: 0;
-        }
-
-        img {
-            border: 0;
-        }
-
-        a {
-            text-decoration: none;
-            color: inherit;
-            display: inline-block;
-        }
-
-        ul {
-            list-style: none;
-        }
-
-        h2 {
-            /* text-align: center; */
-            font-size: 25px;
-            padding: 20px 3px 10px;
-        }
-
-        h3,
-        h4 {
-            padding-top: 15px;
-            margin-left: 5px;
-        }
-
-        .wrapper {
-            width: 100%;
-            table-layout: fixed;
-        }
-
-        .main {
-            width: 100%;
-            max-width: 650px;
-            background-color: #fff;
-
-
-            /* background-color: #1b1b1b; */
-            color: #dddddd;
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-            font-size: 14px;
-        }
-
-        .two-columns {
-            font-size: 0;
-            text-align: center;
-        }
-
-        .two-columns .column {
-            width: 100%;
-            display: inline-block;
-            vertical-align: top;
-            text-align: center;
-        }
-
-        .social-medias a {
-            width: 35px;
-            height: 25px;
-            padding: 0.7px;
-            /* background-color: #d2d2d2; */
-            border-radius: 50%;
-            margin-right: 10px;
-            text-align: center;
-            vertical-align: middle;
-            display: inline-block;
-        }
-
-        i {
-            width: 100px;
-            height: 200px;
-        }
-
-        .border {
-            display: block;
-            height: 0.7px;
-            width: 100%;
-            background-color: gray;
-            border-radius: 3px;
-            margin: 5px 0 0 0;
-        }
-
-        .two-columns .content img {
-            width: 100%;
-            max-width: 100%;
-            height: 200px;
-            object-fit: fill;
-        }
-
-        .text {
-            font-size: 14px;
-            line-height: 24px;
-            padding: 5px;
-        }
-
-        .note {
-            margin-top: 20px;
-            font-size: 12px;
-            line-height: 18px;
-            opacity: 0.85;
-        }
-
-        .two-columns .column {
-            text-align: left;
-        }
-
-        .two-columns .padding {
-            padding: 10px;
-        }
-
-        .white-bg {
-            /* background-color: #ecf1f5; */
-            background-color: #fff;
-            /* background-color: #eaeaea; */
-            /* background-color: #f4e7d4; */
-            color: #000;
-        }
-
-        .black-bg {
-            background-color: #1b1b1b;
-            color: #b6b6b6;
-        }
-
-        .watermark {
-            opacity: 0.2;
-        }
-
-        .image-caption {
-            font-size: 12px;
-            text-align: center;
-            font-weight: 500;
-            margin-top: 5px;
-        }
-
-        .btn {
-            background-color: #e68815;
-            color: #f2f2f2;
-            padding: 8px 15px;
-            border: none;
-            outline: none;
-            border-radius: 20px;
-            cursor: pointer;
-            letter-spacing: 0.3px;
-            font-weight: 500;
-            /* width: 137px; */
-            /* height: 35px; */
-            color: #d2d2d2;
-        }
-
-        .inline-link {
-            color: #e68815;
-            font-weight: 500;
-        }
-
-        .light-text {
-            /* color: #dddddd; */
-            color: #d2d2d2;
-        }
-
-        .purple-text {
-            color: #8C3CDF;
-        }
-    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Onest:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 
-<body>
-    <center class="wrapper" style="background: #9568ff1a; padding-top: 10px; padding-bottom:10px;">
-        <table class="main" width="100%">
-            <tr>
-                <td class="white-bg" style="text-align: center; color: #dddddd; padding: 0px 0 0px 0;">
-                    <span style="display: block;  text-align: center; ">
-                        <span style="display: block;" target="_blank">
-                            <img width="100%" height="180px" style="display: inline-block; object-fit: cover;"
-                                src="https://i.postimg.cc/hj1HKTKj/1.png">
-                        </span>
+<style>
+    .main {
+        width: 100%;
+        max-width: 700px;
+    }
 
-                    </span>
-                </td>
-            </tr>
-            <tr class="baner-wrapper" style="position: relative; padding: 5px;">
-                <td class="white-bg" style="padding: 20px 10px;">
-                    <p class="text">
-                        Hi Pablo,<br> <br>
-                        I'm Power, an A&R representative with Bighit Music. We recently came across your music, and we were captivated by your style.
-                        We think you’d be a great fit for our family of artists and would love to explore working together to bring your music to an even wider audience!
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
 
-                        <br> <br>
+    table {
+        border-spacing: 0;
+    }
 
-                        We’d love to explore a possible collaboration and discuss how we can support your growth as a musician. Specifically, we’re interested in discussing opportunities for production support, marketing, and potential recording options that can elevate your career.
-                    </p>
-                </td>
-            </tr>
+    td {
+        padding: 0;
+    }
 
-            <tr>
-                <td class="black-bg" style="padding: 10px 0px;">
+    img {
+        border: 0;
+    }
 
-                    <span style="display: block; padding-top: 10px; text-align: center; margin-bottom: 15px;">
-                        <span style="display: block; " target="_blank">
-                            <img width="100%" height="270px" style="display: inline-block; object-fit: cover"
-                                src="https://i.postimg.cc/NG4y5jD2/2.png">
-                        </span>
+    a {
+        text-decoration: none;
+        color: inherit;
+        display: inline-block;
+    }
 
-                    </span>
-                    <p class="text">
-                        #CatchTheVibe!💜
-                    </p>
-                </td>
-            </tr>
+    ul {
+        list-style: none;
+    }
+</style>
 
-            <tr class="white-bg">
-                <td style="display: block; padding: 20px 10px;">
+<body style="background: #9568ff1a; padding: 5px 0px;">
+    <table class="main" cellpadding="0" cellspacing="0" style="font-family: 'Poppins', sans-serif; margin: 0 auto">
 
-                    <table width="100%">
-                        <tr>
-                            <td class="two-columns" style="padding-bottom: 0px;">
-                                <table class="column" style="width: 100%;">
-                                    <tr>
-                                        <td class="">
-                                            <img src="https://i.postimg.cc/D0MnLHmH/3.png"
-                                                style="object-fit: cover; height: 100px; width: 100%" alt="">
-                                        </td>
-                                    </tr>
-                                </table>
-                            </td>
-                        </tr>
-                    </table>
+        <tr>
+            <td align="center" style="padding: 6px 0;">
+                <table width="100%" cellpadding="0" cellspacing="0" style="background: #fff; border-radius: 10px; overflow: hidden;">
+                    <tr>
+                        <td style="background-color: #fff;">
+                            <span style="position: relative; width: 100%; height: 190px; border-radius: 10px;">
+                                <img src="https://i.postimg.cc/hj1HKTKj/1.png" alt="Main Image" style="position: relative; width: 100%; height: 100%; border-radius: 10px; object-fit:cover; object-position: center;">
 
-                    <h4><span class="purple-text">1. Studio Access: State-of-the-Art Recording Facilities</span></h4>
-                    <p class="text">
-                        Access our top-quality studios equipped with cutting-edge technology and guided by experienced sound engineers. Record and produce your music in an inspiring, professional environment built to bring your best sound forward.
-                    </p>
-                </td>
-            </tr>
-
-            <!-- FOOTER -->
-            <tr>
-                <td style="padding: 60px 15px 30px 15px; font-size: 12px; background-color: #272626; color: #bfbfbf;">
-                    <span style="display: block;">
-                        <img src="https://i.ibb.co/NNwgDVz/kodexafrica-Logo.png" alt="" width="120">
-                    </span>
-                    <p class="text" style="font-size: 12px;">
-                        At Kodex Africa, we are developing a pipeline of African tech talents equipped with the skills,
-                        support, and network that they need to solve African problems.
-                    </p>
-                    <h3 style="font-weight: 500;">Quick Links</h3>
-                    <ul class="text" style="line-height: 25px; font-size: 12px;">
-                        <li><a href="https://kodexafrica.com/" target="_blank">Home</a></li>
-                        <li><a href="https://kodexafrica.com/about" target="_blank">About Us</a></li>
-                        <li><a href="https://kodexafrica.com/contact" target="_blank">Contact Us</a></li>
-                        <li><a href="https://kodexafrica.com/privacy" target="_blank">Privacy Policy</a></li>
-                    </ul>
-                    <span>
-                        <h3 style="font-weight: 500;">Explore</h3>
-                        <ul class="text" style="line-height: 25px; font-size: 12px;">
-                            <li><a href="https://kodexafrica.com/kodexAcademy" target="_blank">Kodex Academy</a></li>
-                            <li><a href="https://kodexafrica.com/kodexBuild" target="_blank">Kodex Build</a></li>
-                            <li><a href="https://kodexafrica.com/theSpaceNg" target="_blank">The SpaceNg</a></li>
-                        </ul>
-                        <h3 style="font-weight: 500;">Contact</h3>
-                        <ul class="text" style="line-height: 25px; font-size: 12px;">
-                            <li>Plot No. A/127 Iyiagu Housing Estate, Awka, Anambra State.</li>
-                            <li>(+234)9031452508</li>
-                            <!-- <li><a href="">support@kodexafrica.com</a></li> -->
-                        </ul>
-                        <span class="border" style="margin-top: 30px;"></span>
-                        <span class="social-medias" style="padding-top: 30px; display: block;">
-                            <span style="display: block; text-align: center; padding-bottom: 20px;">
-                                <a href="https://www.facebook.com/kodexlimited?mibextid=LQQJ4d" target="_blank"><i
-                                        class="ri-facebook-line" style="font-size: 32px; color: #e68815;"></i></a>
-                                <a href="https://instagram.com/kodexafrica?igshid=NzZlODBkYWE4Ng==" target="_blank"><i
-                                        class="ri-instagram-line" style="font-size: 32px; color: #e68815;"></i></a>
-                                <a href="https://www.linkedin.com/company/kodex-limited-ng/" target="_blank"><i
-                                        class="ri-linkedin-line" style="font-size: 32px; color: #e68815;"></i></a>
-                                <a href="https://www.tiktok.com/@kodex.africa?_t=8g0n984zC7B&_r=1" target="_blank"><i
-                                        class="ri-tiktok-line" style="font-size: 32px; color: #e68815;"></i></a>
-                                <a href="https://twitter.com/kodexltd" target="_blank"><i class="ri-twitter-line"
-                                        style="font-size: 32px; color: #e68815;"></i></a>
-                                <a href="https://youtube.com/@KodexAcademy" target="_blank"><i class="ri-youtube-line"
-                                        style="font-size: 32px; color: #e68815;"></i></a>
                             </span>
-                            <span class="text"
-                                style="display: block; color: #e68815;text-align: center; font-size: 12px;">© 2024 Kodex
-                                Africa. All Rights Reserved.</span>
-                        </span>
-                </td>
-            </tr>
-        </table> <!-- End Main Class -->
-    </center> <!-- End Wrapper -->
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 10px 10px;">
+                            <h1 style="color: #1B1B1B; font-size: 14px; margin-bottom: 10px;">Hi</h1>
+                            <p style="color: #1B1B1B; font-size: 13px; line-height: 1.55;">
+                                I'm Power, an A&R representative with Bighit Music. We recently came across your music, and we were captivated by your style.
+                                We think you’d be a great fit for our family of artists and would love to explore working together to bring your music to an even wider audience!
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+
+        <tr style="width: 100%;">
+            <td align="center" style="padding: 6px 0;">
+                <table width="100%" cellpadding="0" cellspacing="0" style="background: #fff; border-radius: 10px; overflow: hidden; ">
+                    <tr>
+                        <td style="padding: 10px;">
+                            <span style="position: relative; width: 100%; height: 260px; border-radius: 10px;">
+                                <img src="https://i.postimg.cc/NG4y5jD2/2.png" alt="" style="position: relative; width: 100%; height: 100%; border-radius: 10px; object-fit:cover;  object-position: center;">
+                            </span>
+
+                            <p style="margin-top: 15px; font-size: 13px; font-weight: 600; color: #1B1B1B;">#CatchTheVibe!💜</p>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+
+
+        <tr>
+            <td align="center" style="padding: 6px 0;">
+                <table width="100%" cellpadding="0" cellspacing="0" style="background: #fff; border-radius: 10px; overflow: hidden; ">
+                    <tr>
+                        <td style="padding: 10px;">
+                            <span style="display: block; position: relative; width: 100%; height: 100px; border-radius: 10px;">
+                                <img src="https://i.postimg.cc/D0MnLHmH/3.png" alt="" style="position: relative; width: 100%; height: 100%; border-radius: 10px; object-fit:cover;  object-position: center;">
+                            </span>
+                            <span class="listing" style="padding-top: 18px;">
+                                <span class="list-color" style="display: flex; align-items: start;">
+                                    <span
+                                        style=" font-size: 14px; font-weight: 600; text-align: left; color: #8C3CDF; margin-bottom: 0px; padding-top:20px">
+                                        1.
+                                    </span>
+                                    <span style="margin-left: 5px; font-size: 14px; font-weight: 600; text-align: left; color: #8C3CDF; margin-bottom: 0px; padding-top:20px">Studio Access: State-of-the-Art Recording Facilities</span>
+                                </span>
+
+                                <span class="sub-details">
+                                    <p style="color: #1B1B1B;  font-size: 13px; font-weight: 400;  text-align: left; line-height: 23px;">
+                                        Access our top-quality studios equipped with cutting-edge technology and guided by experienced sound engineers. Record and produce your music in an inspiring, professional environment built to bring your best sound forward.
+                                    </p>
+                                </span>
+                            </span>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+
+
+        <tr>
+            <td align="center" style="padding: 6px 0;">
+                <table width="100%" cellpadding="0" cellspacing="0" style="background: #fff; border-radius: 10px; overflow: hidden; ">
+                    <tr>
+                        <td style="padding: 10px;">
+                            <span class="listing" style="margin-top: 18px;">
+                                <span class="list-color" style="display: flex; align-items: start;">
+                                    <span
+                                        style=" font-size: 14px; font-weight: 600; text-align: left; color: #8C3CDF; margin-bottom: 0px;">
+                                        2.
+                                    </span>
+                                    <span style="margin-left: 5px; font-size: 14px; font-weight: 600; text-align: left; color: #8C3CDF; margin-bottom: 0px;">Promotion & Marketing: Reach New Fans with Our Dedicated Team</span>
+                                </span>
+
+                                <span class="sub-details">
+                                    <p style="color: #1B1B1B;  font-size: 13px; font-weight: 400;  text-align: left; line-height: 23px;">
+                                        Our marketing team will promote your music across key platforms, growing your audience and boosting your visibility. With tailored strategies, we ensure your unique sound reaches new fans worldwide.
+                                    </p>
+                                </span>
+                            </span>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+
+        <tr>
+            <td align="center" style="padding: 6px 0;">
+                <table width="100%" cellpadding="0" cellspacing="0" style="background: #fff; border-radius: 10px; overflow: hidden; ">
+                    <!-- Additional Content (Vibe Section) -->
+                    <tr>
+                        <td style="padding: 10px;">
+                            <span class="listing" style="margin-top: 18px;">
+                                <span class="list-color" style="display: flex; align-items: start;">
+                                    <span
+                                        style=" font-size: 14px; font-weight: 600; text-align: left; color: #8C3CDF; margin-bottom: 0px;">
+                                        3.
+                                    </span>
+                                    <span style="margin-left: 5px; font-size: 14px; font-weight: 600; text-align: left; color: #8C3CDF; margin-bottom: 0px;">Collaborations: Opportunities to Work with Our Talented Roster</span>
+                                </span>
+
+                                <span class="sub-details">
+                                    <p style="color: #1B1B1B;  font-size: 13px; font-weight: 400;  text-align: left; line-height: 23px;">
+                                        Join our network of talented artists and explore collaboration opportunities that elevate your craft. From duets to creative projects, we help you connect with other artists and broaden your influence.
+                                    </p>
+                                </span>
+                            </span>
+                        </td>
+                    </tr>
+                    <!-- Additional Sections Here -->
+                </table>
+            </td>
+        </tr>
+
+        <tr>
+            <td style="padding: 6px 0px;">
+                <table width="100%" cellpadding="0" cellspacing="0" style="background: #fff; border-radius: 10px; overflow: hidden; padding: 10px;">
+                    <tr>
+                        <td style="">
+                            <table style="width: 100%;">
+                                <tr>
+                                    <td style="padding: 0;">
+
+                                        <span class="social-medias" style="padding-top: 30px; display: block;">
+                                            <span style="display: block; text-align: start; padding-bottom: 20px;">
+                                                <a href="https://www.facebook.com/kodexlimited?mibextid=LQQJ4d" target="_blank">
+                                                    <i
+                                                        class="ri-facebook-line" style="font-size: 26px; color: #8C3CDF;">
+                                                    </i>
+
+                                                </a>
+                                                <a href="https://instagram.com/kodexafrica?igshid=NzZlODBkYWE4Ng==" target="_blank"><i
+                                                        class="ri-instagram-line" style="font-size: 26px; color: #8C3CDF;"></i></a>
+                                                <a href="https://www.linkedin.com/company/kodex-limited-ng/" target="_blank"><i
+                                                        class="ri-linkedin-line" style="font-size: 26px; color: #8C3CDF;"></i></a>
+                                                <a href="https://www.tiktok.com/@kodex.africa?_t=8g0n984zC7B&_r=1" target="_blank"><i
+                                                        class="ri-tiktok-line" style="font-size: 26px; color: #8C3CDF;"></i></a>
+                                                <a href="https://twitter.com/kodexltd" target="_blank"><i class="ri-twitter-line"
+                                                        style="font-size: 32px; color: #8C3CDF;"></i></a>
+                                                <a href="https://youtube.com/@KodexAcademy" target="_blank"><i class="ri-youtube-line"
+                                                        style="font-size: 26px; color: #8C3CDF;"></i></a>
+                                            </span>
+                                        </span>
+
+                                        <a style="width: 17px; height: 17px; border-radius: 50%; display: flex; justify-content: center; align-items: center; border: 1px solid #8C3CDF; color: #8C3CDF; background: #F4ECFC; text-decoration: none; margin-left: 10px;" href="">
+
+                                            <svg width="10" height="10" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M22 12a10 10 0 10-11.5 9.9v-7h-2.4v-2.9h2.4v-2.2a3.38 3.38 0 013.6-3.7h2.3v2.8h-1.4c-1.1 0-1.4.5-1.4 1.3v1.9h2.8l-.5 2.9h-2.3v7A10 10 0 0022 12z" />
+                                            </svg>
+                                        </a>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <p style="font-size: 13px; font-weight: 400; line-height: 35px; text-align: left; color: #707070; margin-block: 0px;">
+                                © 2024 BTS Records. All rights reserved.
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p style="font-size: 13px; font-weight: 400; text-align:  left; color: #707070; margin-block: 0px; line-height: 23px;">
+                                Music and entertainment services offered by BTS Records. We are dedicated to supporting and promoting artists across various genres. All rights and content related to BTS Records and its artists are protected under copyright laws.
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 10px; text-align: center;">
+                            <span style="display: block; text-align: center;">
+                                <img src="https://i.postimg.cc/9f61PqMp/logo.png" style=" width: 30px" alt="Logo">
+                            </span>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+
+    </table>
 </body>
 
 </html>
