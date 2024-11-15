@@ -58,7 +58,6 @@
                         <td style="background-color: #fff;">
                             <span style="position: relative;  width: 100%; height: 170px; border-radius: 10px;">
                                 <img src="https://i.postimg.cc/hj1HKTKj/1.png" alt="Main Image" style="position: relative; width: 100%; height: 100%; border-radius: 10px; object-fit:cover; object-position: center;">
-
                             </span>
                         </td>
                     </tr>
@@ -171,7 +170,6 @@
                             </span>
                         </td>
                     </tr>
-                    <!-- Additional Sections Here -->
                 </table>
             </td>
         </tr>
@@ -180,43 +178,36 @@
             <td style="padding: 6px 0px;">
                 <table width="100%" cellpadding="0" cellspacing="0" style="background: #fff; border-radius: 10px; overflow: hidden; padding: 10px;">
                     <tr>
-                        <td style="">
+                        <td>
                             <table style="width: 100%;">
                                 <tr>
                                     <td style="padding: 0;">
-
-                                        <span class="social-medias" style="padding-top: 20px; display: block;">
-                                            <span style="display: block; text-align: start; padding-bottom: 10px;">
-                                                <a href="" target="_blank">
-                                                    <span style="display: block;">
+                                        <table style="padding-top: 20px; display: inline-block; text-align: start;" cellspacing="0" cellpadding="0">
+                                            <tr>
+                                                <td>
+                                                    <a href="" target="_blank">
                                                         <img style="width: 24px;" src="https://i.postimg.cc/Gh2C5HdR/twitter.png" alt="Twitter">
-                                                    </span>
-                                                </a>
-
-                                                <a href="" style="margin-left: 10px;" target="_blank">
-                                                    <span style="display: block;">
+                                                    </a>
+                                                </td>
+                                                <td style="padding-left: 10px;">
+                                                    <a href="" target="_blank">
                                                         <img style="width: 24px;" src="https://i.postimg.cc/ZRBfNzh1/instagram.png" alt="Instagram">
-                                                    </span>
-                                                </a>
-
-
-                                                <a style="margin-left: 10px;" href="https://www.facebook.com/kodexlimited?mibextid=LQQJ4d" target="_blank">
-                                                    <span style="display: block;">
-                                                        <img style="width: 24px;" src="https://i.postimg.cc/d1yB1R2F/youtube.png" alt="youtube">
-                                                    </span>
-                                                </a>
-
-
-                                                <a style="margin-left: 10px;" href="" target="_blank">
-                                                    <span style="display: block;">
+                                                    </a>
+                                                </td>
+                                                <td style="padding-left: 10px;">
+                                                    <a href="https://www.facebook.com/kodexlimited?mibextid=LQQJ4d" target="_blank">
+                                                        <img style="width: 24px;" src="https://i.postimg.cc/d1yB1R2F/youtube.png" alt="YouTube">
+                                                    </a>
+                                                </td>
+                                                <td style="padding-left: 10px;">
+                                                    <a href="" target="_blank">
                                                         <img style="width: 24px;" src="https://i.postimg.cc/MKMQ8ZYk/facebook.png" alt="Facebook">
-                                                    </span>
-                                                </a>
-                                            </span>
-                                        </span>
-
-
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                        </table>
                                     </td>
+
                                 </tr>
                             </table>
                         </td>
@@ -224,7 +215,7 @@
 
                     <tr>
                         <td>
-                            <p style="font-size: 13px; font-weight: 400; line-height: 35px; text-align: left; color: #707070; margin-block: 0px;">
+                            <p style="font-size: 13px; font-weight: 400; line-height: 35px; text-align: left; color: #707070; margin-block: 0px; margin-top: 15px;">
                                 © 2024 BTS Records. All rights reserved.
                             </p>
                         </td>
@@ -244,6 +235,12 @@
                         </td>
                     </tr>
                 </table>
+            </td>
+        </tr>
+
+        <tr>
+            <td class="footer" style="background-color: #f3ebf6; padding: 20px; text-align: center; font-size: 14px; color: #888888;">
+                <p>BigHit Music | All rights reserved | 1234 K-Pop St., Seoul, South Korea</p>
             </td>
         </tr>
 
