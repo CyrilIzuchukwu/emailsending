@@ -56,7 +56,7 @@
                 <table width="100%" cellpadding="0" cellspacing="0" style="background: #fff; border-radius: 10px; overflow: hidden;">
                     <tr>
                         <td style="background-color: #fff;">
-                            <span style="position: relative; display: block; width: 100%; height: 170px; border-radius: 10px;">
+                            <span style="position: relative;  width: 100%; height: 170px; border-radius: 10px;">
                                 <img src="https://i.postimg.cc/hj1HKTKj/1.png" alt="Main Image" style="position: relative; width: 100%; height: 100%; border-radius: 10px; object-fit:cover; object-position: center;">
 
                             </span>
@@ -212,8 +212,6 @@
                                                         <img style="width: 24px;" src="https://i.postimg.cc/MKMQ8ZYk/facebook.png" alt="Facebook">
                                                     </span>
                                                 </a>
-
-
                                             </span>
                                         </span>
 
