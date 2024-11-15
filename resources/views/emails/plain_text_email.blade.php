@@ -48,7 +48,7 @@
     }
 </style>
 
-<body style="background: #9568ff1a; padding: 5px 0px;">
+<body style="background: #9568ff1a; padding: 5px 5px;">
     <table class="main" cellpadding="0" cellspacing="0" style="font-family: 'Poppins', sans-serif; margin: 0 auto">
 
         <tr>
@@ -56,7 +56,7 @@
                 <table width="100%" cellpadding="0" cellspacing="0" style="background: #fff; border-radius: 10px; overflow: hidden;">
                     <tr>
                         <td style="background-color: #fff;">
-                            <span style="position: relative; width: 100%; height: 190px; border-radius: 10px;">
+                            <span style="position: relative; display: block; width: 100%; height: 170px; border-radius: 10px;">
                                 <img src="https://i.postimg.cc/hj1HKTKj/1.png" alt="Main Image" style="position: relative; width: 100%; height: 100%; border-radius: 10px; object-fit:cover; object-position: center;">
 
                             </span>
@@ -97,7 +97,7 @@
                 <table width="100%" cellpadding="0" cellspacing="0" style="background: #fff; border-radius: 10px; overflow: hidden; ">
                     <tr>
                         <td style="padding: 10px;">
-                            <span style="display: block; position: relative; width: 100%; height: 100px; border-radius: 10px;">
+                            <span style=" position: relative; width: 100%; height: 120px; border-radius: 10px;">
                                 <img src="https://i.postimg.cc/D0MnLHmH/3.png" alt="" style="position: relative; width: 100%; height: 100%; border-radius: 10px; object-fit:cover;  object-position: center;">
                             </span>
                             <span class="listing" style="padding-top: 18px;">
@@ -185,33 +185,39 @@
                                 <tr>
                                     <td style="padding: 0;">
 
-                                        <span class="social-medias" style="padding-top: 30px; display: block;">
-                                            <span style="display: block; text-align: start; padding-bottom: 20px;">
-                                                <a href="https://www.facebook.com/kodexlimited?mibextid=LQQJ4d" target="_blank">
-                                                    <i
-                                                        class="ri-facebook-line" style="font-size: 26px; color: #8C3CDF;">
-                                                    </i>
-
+                                        <span class="social-medias" style="padding-top: 20px; display: block;">
+                                            <span style="display: block; text-align: start; padding-bottom: 10px;">
+                                                <a href="" target="_blank">
+                                                    <span style="display: block;">
+                                                        <img style="width: 24px;" src="https://i.postimg.cc/Gh2C5HdR/twitter.png" alt="Twitter">
+                                                    </span>
                                                 </a>
-                                                <a href="https://instagram.com/kodexafrica?igshid=NzZlODBkYWE4Ng==" target="_blank"><i
-                                                        class="ri-instagram-line" style="font-size: 26px; color: #8C3CDF;"></i></a>
-                                                <a href="https://www.linkedin.com/company/kodex-limited-ng/" target="_blank"><i
-                                                        class="ri-linkedin-line" style="font-size: 26px; color: #8C3CDF;"></i></a>
-                                                <a href="https://www.tiktok.com/@kodex.africa?_t=8g0n984zC7B&_r=1" target="_blank"><i
-                                                        class="ri-tiktok-line" style="font-size: 26px; color: #8C3CDF;"></i></a>
-                                                <a href="https://twitter.com/kodexltd" target="_blank"><i class="ri-twitter-line"
-                                                        style="font-size: 32px; color: #8C3CDF;"></i></a>
-                                                <a href="https://youtube.com/@KodexAcademy" target="_blank"><i class="ri-youtube-line"
-                                                        style="font-size: 26px; color: #8C3CDF;"></i></a>
+
+                                                <a href="" style="margin-left: 10px;" target="_blank">
+                                                    <span style="display: block;">
+                                                        <img style="width: 24px;" src="https://i.postimg.cc/ZRBfNzh1/instagram.png" alt="Instagram">
+                                                    </span>
+                                                </a>
+
+
+                                                <a style="margin-left: 10px;" href="https://www.facebook.com/kodexlimited?mibextid=LQQJ4d" target="_blank">
+                                                    <span style="display: block;">
+                                                        <img style="width: 24px;" src="https://i.postimg.cc/d1yB1R2F/youtube.png" alt="youtube">
+                                                    </span>
+                                                </a>
+
+
+                                                <a style="margin-left: 10px;" href="" target="_blank">
+                                                    <span style="display: block;">
+                                                        <img style="width: 24px;" src="https://i.postimg.cc/MKMQ8ZYk/facebook.png" alt="Facebook">
+                                                    </span>
+                                                </a>
+
+
                                             </span>
                                         </span>
 
-                                        <a style="width: 17px; height: 17px; border-radius: 50%; display: flex; justify-content: center; align-items: center; border: 1px solid #8C3CDF; color: #8C3CDF; background: #F4ECFC; text-decoration: none; margin-left: 10px;" href="">
 
-                                            <svg width="10" height="10" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M22 12a10 10 0 10-11.5 9.9v-7h-2.4v-2.9h2.4v-2.2a3.38 3.38 0 013.6-3.7h2.3v2.8h-1.4c-1.1 0-1.4.5-1.4 1.3v1.9h2.8l-.5 2.9h-2.3v7A10 10 0 0022 12z" />
-                                            </svg>
-                                        </a>
                                     </td>
                                 </tr>
                             </table>
