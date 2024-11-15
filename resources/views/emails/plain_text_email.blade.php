@@ -185,22 +185,23 @@
                                         <table style="padding-top: 20px; display: inline-block; text-align: start;" cellspacing="0" cellpadding="0">
                                             <tr>
                                                 <td>
-                                                    <a href="" target="_blank">
+                                                    <a href="https://x.com/bts_bighit" target="_blank">
                                                         <img style="width: 24px;" src="https://i.postimg.cc/Gh2C5HdR/twitter.png" alt="Twitter">
                                                     </a>
                                                 </td>
                                                 <td style="padding-left: 10px;">
-                                                    <a href="" target="_blank">
+                                                    <a href="https://www.instagram.com/bts.bighitofficial?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">
                                                         <img style="width: 24px;" src="https://i.postimg.cc/ZRBfNzh1/instagram.png" alt="Instagram">
                                                     </a>
                                                 </td>
+
                                                 <td style="padding-left: 10px;">
-                                                    <a href="https://www.facebook.com/kodexlimited?mibextid=LQQJ4d" target="_blank">
+                                                    <a href="https://youtube.com/@BTS" target="_blank">
                                                         <img style="width: 24px;" src="https://i.postimg.cc/d1yB1R2F/youtube.png" alt="YouTube">
                                                     </a>
                                                 </td>
                                                 <td style="padding-left: 10px;">
-                                                    <a href="" target="_blank">
+                                                    <a href="https://facebook.com/bangtan.official" target="_blank">
                                                         <img style="width: 24px;" src="https://i.postimg.cc/MKMQ8ZYk/facebook.png" alt="Facebook">
                                                     </a>
                                                 </td>

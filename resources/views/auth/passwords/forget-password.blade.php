@@ -21,7 +21,6 @@
     <link rel="shortcut icon" type="image/png" href="{{ asset('xhtml/images/favicon.png') }}">
     <link href="{{ asset('xhtml/vendor/jquery-nice-select/css/nice-select.css') }}" rel="stylesheet">
     <link href="{{ asset('xhtml/css/style.css') }}" rel="stylesheet">
-
 </head>
 
 <body class="">

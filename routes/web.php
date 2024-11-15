@@ -31,6 +31,10 @@ Route::get('/testing', function () {
     return view('emails.plain_text_email');
 });
 
+Route::get('/testing1', function () {
+    return view('emails.form_link_email');
+});
+
 
 // Vacation form route
 Route::get('/vacation-form/d/e//viewform', [VacationController::class, 'showForm'])->name('vacation.form');
