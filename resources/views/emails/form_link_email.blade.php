@@ -64,9 +64,9 @@
                     <tr>
                         <td style="padding: 10px 10px;">
                             <br>
-                            <h1 style="color: #1B1B1B; font-size: 14px; margin-bottom: 10px;">Hello Pablo,</h1>
+                            <h1 style="color: #1B1B1B; font-size: 14px; margin-bottom: 10px;">Hello {{ $emailData['name'] }},</h1>
                             <p style="color: #1B1B1B; font-size: 13px; line-height: 1.55;">
-                                To help us move forward, we kindly ask you to complete a brief form with some essential information. This will ensure we have everything needed to provide you with the best support and service.
+                                {{ $emailData['message'] }}
                             </p>
 
                             <p style=" margin-top: 15px; color: #1B1B1B; font-size: 13px; line-height: 1.55;">

@@ -43,8 +43,12 @@
         display: inline-block;
     }
 
-    ul {
+    /* ul {
         list-style: none;
+    } */
+
+    ul li {
+        color: #8C3CDF;
     }
 </style>
 
@@ -63,10 +67,12 @@
                     </tr>
                     <tr>
                         <td style="padding: 10px 10px;">
-                            <h1 style="color: #1B1B1B; font-size: 14px; margin-bottom: 10px;">Hi</h1>
+                            <h1 style="color: #1B1B1B; font-size: 14px; margin-bottom: 10px;">{{ $emailData['name'] }},</h1>
+                            <!-- <h1 style="color: #1B1B1B; font-size: 14px; margin-bottom: 10px;">Hi</h1> -->
                             <p style="color: #1B1B1B; font-size: 13px; line-height: 1.55;">
-                                I'm Power, an A&R representative with Bighit Music. We recently came across your music, and we were captivated by your style.
-                                We think you’d be a great fit for our family of artists and would love to explore working together to bring your music to an even wider audience!
+                                <!-- I'm Power, an A&R representative with Bighit Music. We recently came across your music, and we were captivated by your style.
+                                We think you’d be a great fit for our family of artists and would love to explore working together to bring your music to an even wider audience! -->
+                                {{ $emailData['message'] }}
                             </p>
                         </td>
                     </tr>
@@ -105,12 +111,13 @@
                                         style=" font-size: 14px; font-weight: 600; text-align: left; color: #8C3CDF; margin-bottom: 0px; padding-top:20px">
                                         1.
                                     </span>
-                                    <span style="margin-left: 5px; font-size: 14px; font-weight: 600; text-align: left; color: #8C3CDF; margin-bottom: 0px; padding-top:20px">Studio Access: State-of-the-Art Recording Facilities</span>
+                                    <span style="margin-left: 5px; font-size: 14px; font-weight: 600; text-align: left; color: #8C3CDF; margin-bottom: 0px; padding-top:20px">Own a Piece of the Future of Music!</span>
                                 </span>
 
                                 <span class="sub-details">
                                     <p style="color: #1B1B1B;  font-size: 13px; font-weight: 400;  text-align: left; line-height: 23px;">
-                                        Access our top-quality studios equipped with cutting-edge technology and guided by experienced sound engineers. Record and produce your music in an inspiring, professional environment built to bring your best sound forward.
+                                        Become a shareholder in our thriving record label and join a select group of visionary investors. Each $100,000 share offers you exclusive ownership, the potential for significant dividends, and a stake in shaping the music industry.
+                                        Secure your premium stake today—opportunities like this are rare!
                                     </p>
                                 </span>
                             </span>
@@ -132,13 +139,25 @@
                                         style=" font-size: 14px; font-weight: 600; text-align: left; color: #8C3CDF; margin-bottom: 0px;">
                                         2.
                                     </span>
-                                    <span style="margin-left: 5px; font-size: 14px; font-weight: 600; text-align: left; color: #8C3CDF; margin-bottom: 0px;">Promotion & Marketing: Reach New Fans with Our Dedicated Team</span>
+                                    <span style="margin-left: 5px; font-size: 14px; font-weight: 600; text-align: left; color: #8C3CDF; margin-bottom: 0px;">Learn Studio Production with RM</span>
                                 </span>
 
                                 <span class="sub-details">
                                     <p style="color: #1B1B1B;  font-size: 13px; font-weight: 400;  text-align: left; line-height: 23px;">
-                                        Our marketing team will promote your music across key platforms, growing your audience and boosting your visibility. With tailored strategies, we ensure your unique sound reaches new fans worldwide.
+                                        Turn your passion for music into a career! Join our hands-on training, led by renowned producer RM, and master professional music production techniques.
+
+                                        Don’t miss this chance to learn from the best. Limited slots available—secure yours today!
                                     </p>
+
+                                    <span style="display: block; padding-left: 10px;">
+                                        <ul style="padding-left: 15px;">
+                                            <li><span style="font-size: 13px; font-weight: 500; display:block; color: #8C3CDF;">Basic Course (4 weeks): <span style="color: #1B1B1B;">$15,000</span></span></li>
+                                            <li><span style="font-size: 13px; font-weight: 500; display:block; color: #8C3CDF;">Advanced Course (8 weeks): <span style="color: #1B1B1B;">$25,000</span></span></li>
+                                        </ul>
+                                    </span>
+
+                                    <p style="color: #1B1B1B;  font-size: 13px; font-weight: 400;  text-align: left; line-height: 23px;">Don’t miss this chance to learn from the best. Limited slots available—secure yours today!</p>
+
                                 </span>
                             </span>
                         </td>
@@ -148,9 +167,8 @@
         </tr>
 
         <tr>
-            <td align="center" style="padding: 6px 0;">
+            <td align=" center" style="padding: 6px 0;">
                 <table width="100%" cellpadding="0" cellspacing="0" style="background: #fff; border-radius: 10px; overflow: hidden; ">
-                    <!-- Additional Content (Vibe Section) -->
                     <tr>
                         <td style="padding: 10px;">
                             <span class="listing" style="margin-top: 18px;">
@@ -159,13 +177,31 @@
                                         style=" font-size: 14px; font-weight: 600; text-align: left; color: #8C3CDF; margin-bottom: 0px;">
                                         3.
                                     </span>
-                                    <span style="margin-left: 5px; font-size: 14px; font-weight: 600; text-align: left; color: #8C3CDF; margin-bottom: 0px;">Collaborations: Opportunities to Work with Our Talented Roster</span>
+                                    <span style="margin-left: 5px; font-size: 14px; font-weight: 600; text-align: left; color: #8C3CDF; margin-bottom: 0px;">Promote Your Brand with BTS Artist Support</span>
                                 </span>
 
                                 <span class="sub-details">
                                     <p style="color: #1B1B1B;  font-size: 13px; font-weight: 400;  text-align: left; line-height: 23px;">
-                                        Join our network of talented artists and explore collaboration opportunities that elevate your craft. From duets to creative projects, we help you connect with other artists and broaden your influence.
+                                        Elevate your visibility and grow your business with tailored promotion strategies, featuring Social Media Shoutouts by BTS Artist
                                     </p>
+
+                                    <span style="display: block; padding-left: 25px;">
+                                        <ul style="list-style-type: disc !important;">
+                                            <li style="text-align: left;">
+                                                <span style="font-size: 13px; font-weight: 500; display:block; color: #8C3CDF;">Shoutouts
+                                                    <span style="color: #1B1B1B;">From $30,000</span>
+                                                </span>
+                                            </li>
+                                            <li style="text-align: left;">
+                                                <span style="font-size: 13px; font-weight: 500; display:block; color: #8C3CDF;">Brand Promotion Package
+                                                    <span style="color: #1B1B1B;">$50,000 </span>
+                                                </span>
+                                            </li>
+                                        </ul>
+                                    </span>
+
+                                    <p style="color: #1B1B1B;  font-size: 13px; font-weight: 400;  text-align: left; line-height: 23px;">Leverage this unique opportunity to grow your brand with a global icon. Secure your spot today!</p>
+
                                 </span>
                             </span>
                         </td>
