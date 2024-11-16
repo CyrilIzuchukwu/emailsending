@@ -22,8 +22,8 @@ class MailController extends Controller
     {
         // Validation rules
         $request->validate([
-            'firstname' => 'required|string|max:255',
-            'lastname' => 'required|string|max:255',
+            'firstname' => 'nullable|string|max:255',
+            'lastname' => 'nullable|string|max:255',
             'email' => 'required|email|unique:registered_mails,email',
         ]);
 
@@ -57,10 +57,10 @@ class MailController extends Controller
     public function update(Request $request, $id)
     {
         $request->validate([
-            'firstname' => 'required|string|max:255',
-            'lastname' => 'required|string|max:255',
-            'email' => 'required|email',
-            'phone' => 'required|string',
+            'firstname' => 'nullable|string|max:255',
+            'lastname' => 'nullable|string|max:255',
+            'email' => 'nullable|email',
+            'phone' => 'nullable|string',
         ]);
 
         $mail = RegisteredMail::findOrFail($id);
@@ -149,6 +149,4 @@ class MailController extends Controller
 
         return redirect()->route('registered-mails.index')->with('success', 'Email sent successfully');
     }
-
-
 }
