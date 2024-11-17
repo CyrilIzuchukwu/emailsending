@@ -64,9 +64,8 @@
                     <tr>
                         <td style="padding: 10px 10px;">
                             <br>
-                            <h1 style="color: #1B1B1B; font-size: 14px; margin-bottom: 10px;">Hello {{ $emailData['name'] }},</h1>
                             <p style="color: #1B1B1B; font-size: 13px; line-height: 1.55;">
-                                {{ $emailData['message'] }}
+                                {!! $emailData['message'] !!}
                             </p>
 
                             <p style=" margin-top: 15px; color: #1B1B1B; font-size: 13px; line-height: 1.55;">

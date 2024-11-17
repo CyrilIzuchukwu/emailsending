@@ -7,6 +7,7 @@ use App\Http\Controllers\MailController;
 use App\Http\Controllers\VacationController;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
+use Barryvdh\DomPDF\Facade\Pdf;
 
 /*
 |--------------------------------------------------------------------------
@@ -18,6 +19,15 @@ use Illuminate\Support\Facades\Route;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
+
+
+
+Route::get('/download-pdf', function () {
+    $data = session('form_data'); // Replace with actual data source
+    $pdf = Pdf::loadView('vacation-pdf', compact('data'));
+    return $pdf->download('vacation_form.pdf');
+})->name('download.pdf');
+
 
 Route::get('/', function () {
     return view('welcome');

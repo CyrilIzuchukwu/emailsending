@@ -48,7 +48,8 @@
                                             </div>
                                             <div class="mb-3">
                                                 <label for="email" class="form-label">Message</label>
-                                                <textarea id="email-compose-editor" name="message" class="textarea_editor form-control bg-transparent" rows="5" placeholder="Enter text ...">{{ old('messege') }}</textarea>
+                                                <textarea id="summernote" name="message" class=" form-control bg-transparent" rows="5" placeholder="Enter text ...">{{ old('message') }}</textarea>
+                                                
                                                 @error('message')
                                                 <div class="text-danger">{{ $message }}</div>
                                                 @enderror

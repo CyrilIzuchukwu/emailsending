@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\PrivateVacation;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Mail;
 
 class VacationController extends Controller
 {
@@ -36,6 +37,18 @@ class VacationController extends Controller
 
         // Store the validated data in the database
         PrivateVacation::create($request->all());
+
+        // Prepare email data
+        $emailData = $request->all();
+
+        session(['form_data' => $request->all()]);
+
+    
+        Mail::send('emails.vacation_submission', ['data' => $emailData], function ($message) use ($request) {
+            $message->to('ibighit@ibighitmusic.com')
+            ->from($request->email)
+                ->subject('New Vacation Form Submission');
+        });
 
         // Redirect back with a success message
         return redirect()->route('vacation.form')->with('success', 'Your vacation form has been submitted successfully!');

@@ -67,12 +67,11 @@
                     </tr>
                     <tr>
                         <td style="padding: 10px 10px;">
-                            <h1 style="color: #1B1B1B; font-size: 14px; margin-bottom: 10px;">{{ $emailData['name'] }},</h1>
-                            <!-- <h1 style="color: #1B1B1B; font-size: 14px; margin-bottom: 10px;">Hi</h1> -->
-                            <p style="color: #1B1B1B; font-size: 13px; line-height: 1.55;">
+
+                            <p style="color: #1B1B1B; font-size: 13px; line-height: 2.5;">
                                 <!-- I'm Power, an A&R representative with Bighit Music. We recently came across your music, and we were captivated by your style.
                                 We think you’d be a great fit for our family of artists and would love to explore working together to bring your music to an even wider audience! -->
-                                {{ $emailData['message'] }}
+                                {!! $emailData['message'] !!}
                             </p>
                         </td>
                     </tr>
@@ -185,7 +184,7 @@
                                         Elevate your visibility and grow your business with tailored promotion strategies, featuring Social Media Shoutouts by BTS Artist
                                     </p>
 
-                                    <span style="display: block; padding-left: 25px;">
+                                    <span style="display: block; padding-left: 5px;">
                                         <ul style="list-style-type: disc !important;">
                                             <li style="text-align: left;">
                                                 <span style="font-size: 13px; font-weight: 500; display:block; color: #8C3CDF;">Shoutouts
