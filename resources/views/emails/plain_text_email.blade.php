@@ -7,7 +7,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="x-apple-disable-message-reformatting">
-    <title>BTH</title>
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
 
     <link href="https://fonts.googleapis.com/css2?family=Onest:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
@@ -68,7 +67,7 @@
                     <tr>
                         <td style="padding: 10px 10px;">
 
-                            <p style="color: #1B1B1B; font-size: 13px; line-height: 2.5;">
+                            <p style="color: #1B1B1B; font-size: 13px; line-height: 3 !important;">
                                 <!-- I'm Power, an A&R representative with Bighit Music. We recently came across your music, and we were captivated by your style.
                                 We think you’d be a great fit for our family of artists and would love to explore working together to bring your music to an even wider audience! -->
                                 {!! $emailData['message'] !!}
@@ -115,7 +114,7 @@
 
                                 <span class="sub-details">
                                     <p style="color: #1B1B1B;  font-size: 13px; font-weight: 400;  text-align: left; line-height: 23px;">
-                                        Become a shareholder in our thriving record label and join a select group of visionary investors. Each $100,000 share offers you exclusive ownership, the potential for significant dividends, and a stake in shaping the music industry.
+                                        Become a shareholder in our thriving record label and join a select group of visionary investors. Each <b>$150,000</b> share offers you exclusive ownership, the potential for significant dividends, and a stake in shaping the music industry.
                                         Secure your premium stake today—opportunities like this are rare!
                                     </p>
                                 </span>
@@ -150,8 +149,8 @@
 
                                     <span style="display: block; padding-left: 10px;">
                                         <ul style="padding-left: 15px;">
-                                            <li><span style="font-size: 13px; font-weight: 500; display:block; color: #8C3CDF;">Basic Course (4 weeks): <span style="color: #1B1B1B;">$15,000</span></span></li>
-                                            <li><span style="font-size: 13px; font-weight: 500; display:block; color: #8C3CDF;">Advanced Course (8 weeks): <span style="color: #1B1B1B;">$25,000</span></span></li>
+                                            <li><span style="font-size: 13px; font-weight: 500; display:block; color: #8C3CDF;">Basic Course (3 weeks): <span style="color: #1B1B1B;">$35,000</span></span></li>
+                                            <li><span style="font-size: 13px; font-weight: 500; display:block; color: #8C3CDF;">Advanced Course (6 weeks): <span style="color: #1B1B1B;">$60,000</span></span></li>
                                         </ul>
                                     </span>
 
@@ -193,7 +192,7 @@
                                             </li>
                                             <li style="text-align: left;">
                                                 <span style="font-size: 13px; font-weight: 500; display:block; color: #8C3CDF;">Brand Promotion Package
-                                                    <span style="color: #1B1B1B;">$50,000 </span>
+                                                    <span style="color: #1B1B1B;">$50,000 (includes additional options—email us for details)</span>
                                                 </span>
                                             </li>
                                         </ul>

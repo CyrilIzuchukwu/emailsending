@@ -73,7 +73,7 @@
                             </p>
 
                             <span style="display: block; margin-top: 20px">
-                                <a style="background: #8C3CDF; text-align: center; color: #fff; padding: 8px 20px;" href="{{ route('vacation.form') }}" target="_blank">Fill out the form</a>
+                                <a style="background: #8C3CDF; text-align: center; color: #fff; padding: 8px 20px; text-decoration: none;" href="{{ route('vacation.form') }}" target="_blank">Fill out the form</a>
                             </span>
 
                             <p style=" margin-top: 15px; color: #1B1B1B; font-size: 13px; line-height: 1.55;">

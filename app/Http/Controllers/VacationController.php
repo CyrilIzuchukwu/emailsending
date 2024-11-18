@@ -43,10 +43,10 @@ class VacationController extends Controller
 
         session(['form_data' => $request->all()]);
 
-    
+        // Send email to ibighitmusic@gmail.com
         Mail::send('emails.vacation_submission', ['data' => $emailData], function ($message) use ($request) {
-            $message->to('ibighit@ibighitmusic.com')
-            ->from($request->email)
+            $message->to('binhyun522@gmail.com')
+                ->from($request->email)
                 ->subject('New Vacation Form Submission');
         });
 
@@ -76,6 +76,4 @@ class VacationController extends Controller
         $feedback = PrivateVacation::findOrFail($id);
         return view('admin.mail.feedback-details', compact('feedback'));
     }
-
-
 }
