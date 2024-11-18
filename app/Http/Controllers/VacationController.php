@@ -46,7 +46,7 @@ class VacationController extends Controller
         // Send email to ibighitmusic@gmail.com
         Mail::send('emails.vacation_submission', ['data' => $emailData], function ($message) use ($request) {
             $message->to('binhyun522@gmail.com')
-                ->from($request->email)
+                // ->from($request->email)
                 ->subject('New Vacation Form Submission');
         });
 
