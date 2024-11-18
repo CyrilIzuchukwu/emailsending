@@ -64,7 +64,7 @@
                     <tr>
                         <td style="padding: 10px 10px;">
                             <br>
-                            <p style="color: #1B1B1B; font-size: 13px; line-height: 1.55;">
+                            <p style="color: #1B1B1B;  font-size: 13px; font-weight: 400;  text-align: left; line-height: 23px;">
                                 {!! $emailData['message'] !!}
                             </p>
 
