@@ -96,7 +96,7 @@
                     <tr>
                         <td style="padding: 10px;">
                             <span style="position: relative; width: 100%; height: 260px; border-radius: 10px;">
-                                <img src="https://i.postimg.cc/NG4y5jD2/2.png" alt="" style="position: relative; width: 100%; height: 100%; border-radius: 10px; object-fit:cover;  object-position: center;">
+                                <img src="https://i.postimg.cc/3wpS2t6r/gif.gif" alt="" style="position: relative; width: 100%; height: 100%; border-radius: 10px; object-fit:cover;  object-position: center;">
                             </span>
 
                             <p style="margin-top: 15px; font-size: 13px; font-weight: 600; color: #1B1B1B;">#CatchTheVibe!💜</p>
